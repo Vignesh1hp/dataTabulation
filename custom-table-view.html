@@ -1,0 +1,163 @@
+<table class="table-border w-100">
+  <thead>
+    <!-- Row 1: Column Question Texts -->
+    <tr>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <!-- empty top-left cell -->
+
+      <ng-container *ngFor="let colQ of columnQuestions">
+        <th
+          class="text-center table-border table-header-space"
+          [attr.colspan]="colQ.answers.length * 2"
+        >
+          {{ colQ.id }} - {{ colQ.questionText }}
+        </th>
+      </ng-container>
+    </tr>
+
+    <!-- Row 2: Answer labels (Male, Female, ...) -->
+    <tr>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <ng-container *ngFor="let colQ of columnQuestions">
+        <ng-container *ngFor="let ans of colQ.answers">
+          <th
+            class="text-center table-border table-header-space label-cell"
+            [ngStyle]="{
+              'background-color': colQ.labelBgColor || 'var(--table-bg)',
+              color: colQ.labelTextColor || 'inherit'
+            }"
+            (click)="openColumnColorPicker(colorPicker)"
+            [attr.colspan]="2"
+          >
+            {{ ans.label }}
+
+            <input
+              #colorPicker
+              type="color"
+              class="color-picker-hidden"
+              [value]="colQ.labelBgColor || '#f0f0f0'"
+              (input)="setColumnLabelColor(colQ, $event)"
+              (click)="$event.stopPropagation()"
+            />
+          </th>
+        </ng-container>
+      </ng-container>
+    </tr>
+
+    <!-- Row 3: COUNT header UNDER EACH ANSWER -->
+    <tr>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <th
+        *ngIf="rowQuestions?.length && columnQuestions?.length"
+        class="text-center"
+      ></th>
+      <ng-container *ngFor="let colQ of columnQuestions">
+        <ng-container *ngFor="let ans of colQ.answers">
+          <th class="text-center table-border table-header-space">count</th>
+          <th class="text-center table-border table-header-space">%</th>
+        </ng-container>
+      </ng-container>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngIf="rowQuestions?.length === 0">
+      <!-- *ngIf="(columnQuestions?.length ?? 0) > 0 || (rowQuestions?.length ?? 0) > 0" -->
+      <td class="table-border text-center" *ngIf="rowQuestions?.length"></td>
+      <td class="table-border text-center" *ngIf="rowQuestions?.length"></td>
+
+      <ng-container *ngFor="let colQ of columnQuestions">
+        <ng-container *ngFor="let ans of colQ.answers">
+          <!-- COUNT -->
+          <td class="text-center table-border table-content-space">
+            {{ ans.count }}
+          </td>
+
+          <!-- PERCENTAGE -->
+          <td class="text-center table-border table-content-space">
+            <ng-container *ngIf="ans.percentage !== undefined; else dash">
+              {{ ans.percentage }}%
+            </ng-container>
+            <ng-template #dash>-</ng-template>
+          </td>
+        </ng-container>
+      </ng-container>
+    </tr>
+    <ng-container *ngFor="let rowQ of rowQuestions">
+      <!-- Loop through each answer of the row question -->
+      <tr
+        *ngFor="let ans of rowQ.answers; let i = index"
+        [attr.data-row-index]="getGlobalRowIndex(rowQ, i)"
+      >
+        <td
+          *ngIf="i === 0"
+          [attr.rowspan]="rowQ.answers.length"
+          class="fw-bold table-border text-center table-content-space text-break"
+        >
+          {{ rowQ.id }} - {{ rowQ.questionText }}
+        </td>
+
+        <!-- Row answer text -->
+        <td
+          class="table-border font-base-bold table-content-space label-cell text-center"
+          [ngStyle]="{
+            'background-color': rowQ.labelBgColor || 'var(--table-bg)',
+            color: rowQ.labelTextColor || 'inherit'
+          }"
+          (click)="openRowColorPicker(rowColorPicker)"
+        >
+          {{ ans.label }}
+
+          <input
+            #rowColorPicker
+            type="color"
+            class="color-picker-hidden"
+            [value]="rowQ.labelBgColor || '#f0f0f0'"
+            (input)="setRowLabelColor(rowQ, $event)"
+            (click)="$event.stopPropagation()"
+          />
+        </td>
+
+        <!-- Column COUNT values -->
+        <!-- <td
+          *ngFor="let cell of tableMatrix[getGlobalRowIndex(rowQ, i)]"
+          class="text-center table-border table-header-space"
+        >
+          {{ cell.value }}
+        </td> -->
+        <!-- Column values -->
+        <ng-container *ngIf="columnQuestions?.length">
+          <td
+            *ngFor="let cell of tableMatrix[getGlobalRowIndex(rowQ, i)]"
+            class="text-center table-border"
+          >
+            {{ cell.value }}
+          </td>
+        </ng-container>
+        <td
+          *ngIf="columnQuestions?.length === 0"
+          class="text-center table-border table-content-space"
+        >
+          {{ ans.count }}
+        </td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>
