@@ -1,0 +1,3007 @@
+{
+  "questions": [
+    {
+      "question": { "var": "responseid", "txt": "responseid" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "respid", "txt": "respid" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "status", "txt": "status" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "interview_start", "txt": "interview_start" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "interview_end", "txt": "interview_end" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "last_touched", "txt": "last_touched" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "lastcomplete", "txt": "lastcomplete" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "act_start_time",
+        "txt": "act_start_time - act_start_time"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "start_time",
+        "txt": "start_time - start_time - Date"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "end_time",
+        "txt": "end_time - end_time - End date"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "starttime", "txt": "startTime - startTime" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "endtime", "txt": "endTime - endTime" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "totaltime", "txt": "totalTime - 'totalTime'" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "totaltime1", "txt": "totalTime1 - 'totalTime'" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "cid",
+        "txt": "cid - cid --- Panel variable group id --- hidden"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "pid",
+        "txt": "pid - pid --- Panel variable Panel list  id --- hidden"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "aid", "txt": "aid - aid" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "responid",
+        "txt": "responID - responID - Background variable for the survey"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "batch",
+        "txt": "Batch - Batch - Back Ground Variable for the link"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "pnum",
+        "txt": "pnum - pnum--- Panel variable Study/Survey id --- hidden"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "qprojectid",
+        "txt": "qprojectid - qprojectid --- Panel variable Panel list  id --- hidden"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "l", "txt": "l - language" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hlogo",
+        "txt": "hLogo - Hidden question to punch based on gid value"
+      },
+      "options": {
+        "1.0": "1",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7",
+        "8.0": "8",
+        "9.0": "9",
+        "10.0": "10",
+        "99.0": "11"
+      },
+      "stats": { "count": { "1.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "qhidvendor",
+        "txt": "qHidVendor - Hidden question to track mode..."
+      },
+      "options": {
+        "1.0": "1",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7",
+        "8.0": "8",
+        "9.0": "9",
+        "10.0": "10",
+        "99.0": "Test"
+      },
+      "stats": { "count": { "1.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "qhidmode",
+        "txt": "qHidMode - Hidden question to track mode..."
+      },
+      "options": { "1.0": "Test", "2.0": "Live" },
+      "stats": { "count": { "2.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "devicetype",
+        "txt": "DeviceType - Hidden: DeviceType"
+      },
+      "options": {
+        "1.0": "Desktop rendering (PC/Mac/tablet)",
+        "2.0": "iPhone/iPod touch/Android phones",
+        "3.0": "All other mobile phones"
+      },
+      "stats": { "count": { "2.0": 35, "1.0": 20, "3.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "dtrack",
+        "txt": "dTrack - Hidden question to track changes..."
+      },
+      "options": {
+        "1.0": "Initial",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7",
+        "8.0": "8",
+        "9.0": "9",
+        "10.0": "10"
+      },
+      "stats": { "count": { "1.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "screened",
+        "txt": "Screened - Hidden question to get the question ids for various screened respondents."
+      },
+      "options": {
+        "1.0": "Screened at BOT reCaptcha",
+        "2.0": "Screened at QC2",
+        "3.0": "Screened at QC3",
+        "4.0": "Screened at QC4",
+        "5.0": "Screened at QC5",
+        "6.0": "Screened at S1",
+        "7.0": "Screened at S1a",
+        "8.0": "Screened at S3",
+        "9.0": "Screened at S4",
+        "10.0": "Screened at S5",
+        "11.0": "Screened at S2",
+        "12.0": "Screened at",
+        "13.0": "Screened at",
+        "14.0": "Screened at",
+        "15.0": "Screened at",
+        "97.0": "Straight Liner",
+        "98.0": "Speeders",
+        "99.0": "Junk OE"
+      },
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "quotafull",
+        "txt": "Quotafull - Hidden question to get the question ids for various quotafull respondents."
+      },
+      "options": {
+        "1.0": "Total",
+        "2.0": "Quota_HS2",
+        "3.0": "Quota_S1a",
+        "4.0": "Quota_S2a",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7",
+        "8.0": "8",
+        "9.0": "9",
+        "10.0": "10"
+      },
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "endlinks_c1",
+        "txt": "http://cursory-tech.com/ (Endlinks - Endlinks (Complete, Screened, Quotafull))"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "endlinks_s1",
+        "txt": "http://cursory-tech.com/ (Endlinks - Endlinks (Complete, Screened, Quotafull))"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "endlinks_q1",
+        "txt": "http://cursory-tech.com/ (Endlinks - Endlinks (Complete, Screened, Quotafull))"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "ip",
+        "txt": "IP - Hidden Question to capture the Ip address of the respondent."
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_1",
+        "txt": "IPTrack_1 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_2",
+        "txt": "IPTrack_2 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_3",
+        "txt": "IPTrack_3 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_4",
+        "txt": "IPTrack_4 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_5",
+        "txt": "IPTrack_5 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_6",
+        "txt": "IPTrack_6 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_7",
+        "txt": "IPTrack_7 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_8",
+        "txt": "IPTrack_8 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_9",
+        "txt": "IPTrack_9 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_10",
+        "txt": "IPTrack_10 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_11",
+        "txt": "IPTrack_11 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_12",
+        "txt": "IPTrack_12 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_13",
+        "txt": "IPTrack_13 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_14",
+        "txt": "IPTrack_14 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_15",
+        "txt": "IPTrack_15 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_16",
+        "txt": "IPTrack_16 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_17",
+        "txt": "IPTrack_17 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_18",
+        "txt": "IPTrack_18 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_19",
+        "txt": "IPTrack_19 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "iptrack_20",
+        "txt": "IPTrack_20 (IPTrack - IPTrack - To track the Ip at the Various Interval -- Hidden)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "browsertype",
+        "txt": "BrowserType - Hidden Question to capture the Browser type of the respondent."
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "browserversion",
+        "txt": "BrowserVersion - Hidden Question to capture the browser version of the respondent."
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirect_c1",
+        "txt": "https://spectrumsurveys.com/surveydone?st=21&transaction_id=^f('aid').get()^&ps_hash=fKzOEmVO (Redirect)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirect_s1",
+        "txt": "https://spectrumsurveys.com/surveydone?st=18&transaction_id=^f('aid').get()^ (Redirect)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirect_q1",
+        "txt": "https://spectrumsurveys.com/surveydone?st=17&transaction_id=^f('aid').get()^ (Redirect)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirect_f1",
+        "txt": "https://spectrumsurveys.com/surveydone?st=20&transaction_id=^f('aid').get()^ (Redirect)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirect1",
+        "txt": "Redirect1 - Hidden Question to capture the browser version of the respondent."
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirectstatus_c",
+        "txt": "Complete (RedirectStatus)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirectstatus_s",
+        "txt": "Screened (RedirectStatus)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "redirectstatus_q",
+        "txt": "quotafull (RedirectStatus)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_2",
+        "txt": "Please answer consecutive boxes without leaving blank (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_4",
+        "txt": "Please answer this question. Your answers must sum to 100% (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_5",
+        "txt": "Please enter a maximum of 80 characters (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_7",
+        "txt": "Please do not enter only blank space in the box (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_8",
+        "txt": "Please specify the input sequentially, starting from the first box. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_9",
+        "txt": "You can't select both 'Not sure' and responses to types of medicines.  (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_11",
+        "txt": "Please provide an answer to this question. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_20",
+        "txt": "Please make sure all three rows are answered. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_24",
+        "txt": "Please select the option for the other if you have provided the response in the text box. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_25",
+        "txt": "Please provide your response in the text box if you have selected the other. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "errormessages_111",
+        "txt": "Please make sure to enter a valid response with more than 4 characters in the open end. (ErrorMessages - Hidden for error messages)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_1",
+        "txt": "Q1 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_2",
+        "txt": "Q5 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_3",
+        "txt": "Q6 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_4",
+        "txt": "Q12 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_5",
+        "txt": "A1 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hstraightliner_6",
+        "txt": "A2 (hStraightLiner - hStraightLiner: Hidden for flagging straight liner respondents)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hspeeder",
+        "txt": "hSpeeder - hSpeeder: Hidden for flagging speed racers"
+      },
+      "options": { "1.0": "Speeder" },
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "qccounter_1",
+        "txt": "Counter:  (QCcounter - Hidden: QCcounter)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "success",
+        "txt": "[verification success] - [verification success]"
+      },
+      "options": { "0.0": "False", "1.0": "True" },
+      "stats": { "count": { "1.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "score",
+        "txt": "[verification score] - [verification score]"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "timestamp",
+        "txt": "[challenge timestamp] - [challenge timestamp]"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "s1", "txt": "S1 - What province do you live in?" },
+      "options": {
+        "1.0": "British Columbia",
+        "2.0": "Alberta",
+        "3.0": "Saskatchewan",
+        "4.0": "Manitoba",
+        "5.0": "Ontario",
+        "6.0": "Quebec",
+        "7.0": "New Brunswick",
+        "8.0": "Nova Scotia",
+        "9.0": "Prince Edward Island",
+        "10.0": "Newfoundland/Labrador",
+        "11.0": "Yukon",
+        "12.0": "Northwest Territories",
+        "13.0": "Nunavut",
+        "14.0": "Outside of Canada"
+      },
+      "stats": { "count": { "5.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "s1a",
+        "txt": "S1a - Which of the following best describes where you live within Ontario?"
+      },
+      "options": {
+        "1.0": "Greater Toronto Area (GTA) (e.g., Toronto, Mississauga, Brampton, Vaughan, Oshawa, Burlington, and surrounding areas)",
+        "2.0": "Golden Horseshoe outside the GTA (e.g., Hamilton, Niagara, and surrounding areas)",
+        "3.0": "Southwestern Ontario (including London, Windsor, Kitchener-Waterloo, and surrounding areas)",
+        "4.0": "Eastern Ontario (including Ottawa, Kingston, Cornwall, and surrounding areas)",
+        "5.0": "Central Ontario (including Barrie, Orillia, Peterborough, and surrounding areas)",
+        "6.0": "Northern Ontario (including Sudbury, Thunder Bay, North Bay, and surrounding areas)",
+        "7.0": "Northeastern Ontario (including Timmins, Sault Ste. Marie, Temiskaming Shores, and surrounding areas)"
+      },
+      "stats": { "count": { "1.0": 47, "2.0": 9 } }
+    },
+    {
+      "question": { "var": "s2", "txt": "S2 - What is your age?" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hs2",
+        "txt": "HS2 - HS2 : Will be hidden in live llink"
+      },
+      "options": {
+        "1.0": "18-24",
+        "2.0": "25-34",
+        "3.0": "35-44",
+        "4.0": "45-54",
+        "5.0": "55-64",
+        "6.0": "65-99"
+      },
+      "stats": {
+        "count": { "3.0": 18, "5.0": 12, "2.0": 9, "4.0": 9, "6.0": 8 }
+      }
+    },
+    {
+      "question": {
+        "var": "s2a",
+        "txt": "S2a - What is your gender identity?"
+      },
+      "options": {
+        "1.0": "Male",
+        "2.0": "Female",
+        "3.0": "Other",
+        "4.0": "Prefer not to answer"
+      },
+      "stats": { "count": { "2.0": 32, "1.0": 24 } }
+    },
+    {
+      "question": {
+        "var": "qc2_1",
+        "txt": "Visited a restaurant in-person (QC2 - In the past month, how many times have you done each of the following? Please provide an answer for each statement.)"
+      },
+      "options": {
+        "1.0": "Once",
+        "2.0": "2-3 times",
+        "3.0": "More than three times",
+        "4.0": "None (have not done in the past month)"
+      },
+      "stats": { "count": { "2.0": 29, "3.0": 16, "1.0": 10, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "qc2_2",
+        "txt": "Ordered take-out directly from a restaurant or food delivery service (e.g. Uber Eats, Skip the dishes) (QC2 - In the past month, how many times have you done each of the following? Please provide an answer for each statement.)"
+      },
+      "options": {
+        "1.0": "Once",
+        "2.0": "2-3 times",
+        "3.0": "More than three times",
+        "4.0": "None (have not done in the past month)"
+      },
+      "stats": { "count": { "2.0": 15, "3.0": 15, "1.0": 14, "4.0": 12 } }
+    },
+    {
+      "question": {
+        "var": "qc2_3",
+        "txt": "Visited a Walmart location (QC2 - In the past month, how many times have you done each of the following? Please provide an answer for each statement.)"
+      },
+      "options": {
+        "1.0": "Once",
+        "2.0": "2-3 times",
+        "3.0": "More than three times",
+        "4.0": "None (have not done in the past month)"
+      },
+      "stats": { "count": { "2.0": 20, "3.0": 18, "1.0": 12, "4.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "qc2_4",
+        "txt": "Made a purchase from Home Depot (QC2 - In the past month, how many times have you done each of the following? Please provide an answer for each statement.)"
+      },
+      "options": {
+        "1.0": "Once",
+        "2.0": "2-3 times",
+        "3.0": "More than three times",
+        "4.0": "None (have not done in the past month)"
+      },
+      "stats": { "count": { "4.0": 25, "1.0": 19, "2.0": 9, "3.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "qc2_5",
+        "txt": "Made a purchase from Aerotyne industries (QC2 - In the past month, how many times have you done each of the following? Please provide an answer for each statement.)"
+      },
+      "options": {
+        "1.0": "Once",
+        "2.0": "2-3 times",
+        "3.0": "More than three times",
+        "4.0": "None (have not done in the past month)"
+      },
+      "stats": { "count": { "4.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "s3",
+        "txt": "S3 - How likely are you to consider purchasing a new home for either personal use or investment purposes in the next 5-7 years?"
+      },
+      "options": {
+        "1.0": "Extremely likely",
+        "2.0": "Very likely",
+        "3.0": "Somewhat likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "3.0": 23, "2.0": 19, "1.0": 14 } }
+    },
+    {
+      "question": {
+        "var": "s4_1",
+        "txt": "Detached House: A standalone single-family dwelling that does not share any walls with neighbouring properties. (S4 - How likely are you to consider purchasing each of the following types of homes in the next 5 years?)"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "1.0": 32, "2.0": 20, "3.0": 4 } }
+    },
+    {
+      "question": {
+        "var": "s4_2",
+        "txt": "Semi-detached House: A dwelling that shares one common wall with another house, typically split into two separate units. (S4 - How likely are you to consider purchasing each of the following types of homes in the next 5 years?)"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "2.0": 31, "1.0": 16, "3.0": 9 } }
+    },
+    {
+      "question": {
+        "var": "s4_3",
+        "txt": "Townhouse: Also known as a row house or terraced house, a townhouse is a multi-level residence that shares walls with adjacent units and often features a small yard or patio. (S4 - How likely are you to consider purchasing each of the following types of ho"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "2.0": 30, "1.0": 20, "3.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "s4_4",
+        "txt": "Condominium Apartment (Condo): A privately owned individual unit within a larger building or complex, where residents typically share common areas and amenities such as hallways, elevators, and recreational facilities. (S4 - How likely are you to consider"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "2.0": 34, "1.0": 16, "3.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "s5_1",
+        "txt": "Urban: Vibrant city center with diverse cultural amenities, dining options, and convenient access to public transportation. (S5 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "1.0": 32, "2.0": 19, "3.0": 5 } }
+    },
+    {
+      "question": {
+        "var": "s5_2",
+        "txt": "Suburban: Quiet and family-friendly neighbourhoods with spacious homes, green spaces, and good schools, while still being within commuting distance to urban areas. (S5 - If you were looking to purchase a new home over the next few years, how likely would y"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "1.0": 32, "2.0": 24 } }
+    },
+    {
+      "question": {
+        "var": "s5_3",
+        "txt": "Rural: an area with lower population density, located outside major urban or suburban areas and close to open spaces, farmland, or natural landscapes. (S5 - If you were looking to purchase a new home over the next few years, how likely would you be to cons"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "2.0": 25, "3.0": 21, "1.0": 10 } }
+    },
+    {
+      "question": {
+        "var": "s5_4",
+        "txt": "Small Town: Quaint and charming communities with a strong sense of local identity, small businesses, and community events, offering a balance between urban and rural lifestyles. (S5 - If you were looking to purchase a new home over the next few years, how"
+      },
+      "options": {
+        "1.0": "I definitely would consider it",
+        "2.0": "I might consider it",
+        "3.0": "I would never consider it"
+      },
+      "stats": { "count": { "2.0": 33, "3.0": 13, "1.0": 10 } }
+    },
+    {
+      "question": {
+        "var": "q1_1",
+        "txt": "Play high energy recreational sports like basketball, tennis or pickle ball (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "type": { "original": "F1.0", "inferred": "NOMINAL" },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "values": [],
+      "stats": {
+        "count": { "4.0": 21, "2.0": 19, "3.0": 10, "1.0": 6 },
+        "percentage": { "4.0": 37.5, "2.0": 33.93, "3.0": 17.86, "1.0": 10.71 },
+        "min": null,
+        "max": null,
+        "mean": null,
+        "median": null,
+        "mode": [],
+        "total": 56
+      }
+    },
+    {
+      "question": {
+        "var": "q1_2",
+        "txt": "Work out at a gym, club or community centre (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "type": { "original": "F1.0", "inferred": "NOMINAL" },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "values": [],
+      "stats": {
+        "count": { "1.0": 16, "2.0": 14, "4.0": 14, "3.0": 12 },
+        "percentage": { "1.0": 28.57, "2.0": 25.0, "4.0": 25.0, "3.0": 21.43 },
+        "min": null,
+        "max": null,
+        "mean": null,
+        "median": null,
+        "mode": [],
+        "total": 56
+      }
+    },
+    {
+      "question": {
+        "var": "q1_3",
+        "txt": "Practice yoga or meditation (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 20, "4.0": 16, "3.0": 13, "1.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "q1_4",
+        "txt": "Go to an outdoor arts or cultural event like a theatre, concert, gallery, or street festival (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 34, "3.0": 11, "1.0": 10, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q1_5",
+        "txt": "Attend live music or comedy shows (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 26, "3.0": 20, "1.0": 9, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q1_6",
+        "txt": "Go to the movies (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 27, "1.0": 12, "3.0": 10, "4.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "q1_7",
+        "txt": "Go out to a restaurant (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "1.0": 28, "2.0": 28 } }
+    },
+    {
+      "question": {
+        "var": "q1_8",
+        "txt": "Go to a farmer's or outdoor market area (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 26, "3.0": 16, "1.0": 10, "4.0": 4 } }
+    },
+    {
+      "question": {
+        "var": "q1_9",
+        "txt": "Shop small and local businesses (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 28, "1.0": 22, "3.0": 5, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q1_10",
+        "txt": "Go to a library (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 29, "3.0": 12, "1.0": 8, "4.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "q1_11",
+        "txt": "Go to a religious sanctuary like a church, temple, synagogue or mosque (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 18, "3.0": 14, "4.0": 13, "1.0": 11 } }
+    },
+    {
+      "question": {
+        "var": "q1_12",
+        "txt": "Shop big box stores or major retailers (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "1.0": 33, "2.0": 17, "3.0": 5, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q1_13",
+        "txt": "Shop an ethnic market or store for traditional foods (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 26, "3.0": 18, "4.0": 6, "1.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "q1_14",
+        "txt": "Bring home takeout meals (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 28, "1.0": 21, "3.0": 5, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q1_15",
+        "txt": "Participate in outdoor activities such as hiking, biking, skiing, etc. (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 33, "1.0": 14, "3.0": 7, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q1_16",
+        "txt": "Take public transit like TTC or GO trains/buses (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 22, "1.0": 18, "3.0": 14, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q1_17",
+        "txt": "Work from home (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "4.0": 19, "2.0": 17, "1.0": 16, "3.0": 4 } }
+    },
+    {
+      "question": {
+        "var": "q1_18",
+        "txt": "Spend time outdoors socializing in public green spaces (e.g., having a picnic or hanging out with friends or family) (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "2.0": 27, "1.0": 21, "3.0": 8 } }
+    },
+    {
+      "question": {
+        "var": "q1_19",
+        "txt": "Gardening (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "3.0": 19, "2.0": 17, "1.0": 13, "4.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "q1_20",
+        "txt": "Ice skating either indoors or outdoors (Q1 - Thinking about how you live and your lifestyle, how often do you engage in each of the following types of activities?)"
+      },
+      "options": {
+        "1.0": "Regularly",
+        "2.0": "Occasionally",
+        "3.0": "Rarely",
+        "4.0": "Never"
+      },
+      "stats": { "count": { "4.0": 22, "2.0": 15, "3.0": 15, "1.0": 4 } }
+    },
+    {
+      "question": {
+        "var": "hconjointredirectonce",
+        "txt": "hConjointRedirectOnce - Hidden variable to track if conjoint redirected or not. Will be hidden in live link"
+      },
+      "options": { "1.0": "Redirected to Conjoint" },
+      "stats": { "count": { "1.0": 56 } }
+    },
+    {
+      "question": {
+        "var": "q3_1",
+        "txt": "More Space for Growing Family: Needing additional bedrooms or living space to accommodate a growing family. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to mov"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_2",
+        "txt": "Downsizing: Seeking a smaller, more manageable home after children have moved out or to reduce maintenance and expenses. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your de"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_3",
+        "txt": "Job Relocation: Moving to a new area or city due to a change in employment or career opportunities. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to move?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_4",
+        "txt": "Desire for Better Neighbourhood: Wanting to live in a safer, more desirable neighbourhood with better amenities and community services. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_5",
+        "txt": "Change in Relationship Status: Moving due to marriage, divorce, or starting a new relationship. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to move?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_6",
+        "txt": "Financial Reasons: Seeking more affordable housing options, lower cost of living, or better investment opportunities. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decis"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_7",
+        "txt": "Retirement: Transitioning to a retirement community or relocating to a place with better climate and lifestyle options. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your dec"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_8",
+        "txt": "Health Reasons: Moving to be closer to healthcare facilities or to live in a more supportive environment for specific health needs. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_9",
+        "txt": "Schools and Education: Choosing a home in a better school district or closer to educational opportunities for children. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your dec"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_10",
+        "txt": "Lifestyle Change: Pursuing a different lifestyle, such as moving from urban to suburban or rural areas or vice versa, to be closer to nature or cultural amenities. (Q3 - Assuming you were looking for a new home in the near future, which of the following go"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_11",
+        "txt": "Upgrade to higher quality: Seeking a home with nicer finishes, upgraded amenities, and overall higher quality. (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_12",
+        "txt": "Need to move out of my family home: I am no longer living with my parents and need a place to live (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to move?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_13",
+        "txt": "Other (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to move?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q3_13_other",
+        "txt": "Other (Q3 - Assuming you were looking for a new home in the near future, which of the following goals or reasons would play a role in your decision to move?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "progconjointlystatus",
+        "txt": "PROGConjointlyStatus - PROGConjointlyStatus: Hidden variable"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "q4",
+        "txt": "Q4 - Of the items you selected below, which one is the most important / would play the biggest role in your decision to move?"
+      },
+      "options": {
+        "1.0": "More Space for Growing Family: Needing additional bedrooms or living space to accommodate a growing family.",
+        "2.0": "Downsizing: Seeking a smaller, more manageable home after children have moved out or to reduce maintenance and expenses.",
+        "3.0": "Job Relocation: Moving to a new area or city due to a change in employment or career opportunities.",
+        "4.0": "Desire for Better Neighbourhood: Wanting to live in a safer, more desirable neighbourhood with better amenities and comm",
+        "5.0": "Change in Relationship Status: Moving due to marriage, divorce, or starting a new relationship.",
+        "6.0": "Financial Reasons: Seeking more affordable housing options, lower cost of living, or better investment opportunities.",
+        "7.0": "Retirement: Transitioning to a retirement community or relocating to a place with better climate and lifestyle options.",
+        "8.0": "Health Reasons: Moving to be closer to healthcare facilities or to live in a more supportive environment for specific he",
+        "9.0": "Schools and Education: Choosing a home in a better school district or closer to educational opportunities for children.",
+        "10.0": "Lifestyle Change: Pursuing a different lifestyle, such as moving from urban to suburban or rural areas or vice versa, to",
+        "11.0": "Upgrade to higher quality: Seeking a home with nicer finishes, upgraded amenities, and overall higher quality.",
+        "12.0": "Need to move out of my family home: I am no longer living with my parents and need a place to live",
+        "13.0": "^f(\"Q3_13_other\")^"
+      },
+      "stats": {
+        "count": {
+          "6.0": 10,
+          "11.0": 9,
+          "2.0": 7,
+          "10.0": 7,
+          "1.0": 6,
+          "7.0": 6,
+          "4.0": 4,
+          "3.0": 3,
+          "8.0": 1,
+          "5.0": 1,
+          "9.0": 1,
+          "13.0": 1
+        }
+      }
+    },
+    {
+      "question": {
+        "var": "q5_1",
+        "txt": "The purchase price is affordable (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "1.0": 36, "2.0": 16, "3.0": 2, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q5_2",
+        "txt": "Any additional maintenance fees for upkeep are affordable (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "1.0": 34, "2.0": 17, "3.0": 4, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q5_3",
+        "txt": "There is a separate/designated space to work from home either in my personal space or in a shared space (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "2.0": 20, "1.0": 16, "3.0": 12, "4.0": 8 } }
+    },
+    {
+      "question": {
+        "var": "q5_4",
+        "txt": "It needs to be built and operated with a focus on environmental sustainability in terms of the materials used and features included (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "2.0": 28, "1.0": 14, "3.0": 9, "4.0": 5 } }
+    },
+    {
+      "question": {
+        "var": "q5_5",
+        "txt": "The location is close to my family or friends (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "2.0": 31, "1.0": 16, "3.0": 8, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q5_6",
+        "txt": "There are nearby amenities that support my daily needs \u2013 e.g., Places to work out or be active, places to shop or eat (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "1.0": 33, "2.0": 20, "3.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "q5_7",
+        "txt": "Parking is available (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "1.0": 29, "2.0": 20, "3.0": 5, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q5_8",
+        "txt": "Electric vehicle charging station is available (Q5 - How important are each of the following to you when you're considering a specific home?)"
+      },
+      "options": {
+        "1.0": "Very important",
+        "2.0": "Somewhat important",
+        "3.0": "Not very important",
+        "4.0": "Not important at all"
+      },
+      "stats": { "count": { "2.0": 18, "3.0": 14, "4.0": 14, "1.0": 10 } }
+    },
+    {
+      "question": {
+        "var": "q6_1",
+        "txt": "I am looking for more affordable housing (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 20, "1.0": 20, "3.0": 11, "4.0": 3, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_2",
+        "txt": "I want to move somewhere with a lower cost of living compared to my current neighbourhood (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 22, "3.0": 15, "1.0": 13, "4.0": 5, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_3",
+        "txt": "It will be extremely difficult to find a home that meets my needs and fits within my budget (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 17, "3.0": 14, "4.0": 11, "1.0": 11, "5.0": 3 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_4",
+        "txt": "I have a firm budget in mind and will only consider homes within my target price range (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 22, "1.0": 20, "3.0": 11, "4.0": 2, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_5",
+        "txt": "It will be difficult to secure a mortgage for the amount of money I want to purchase my next home (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 19, "3.0": 16, "5.0": 9, "1.0": 8, "4.0": 4 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_6",
+        "txt": "Real estate is the most important investment you can make (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 26, "1.0": 19, "3.0": 8, "4.0": 2, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_7",
+        "txt": "A home is about the people in it, not bricks and mortar (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 23, "1.0": 21, "3.0": 9, "4.0": 2, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_8",
+        "txt": "Home ownership is a symbol of achievement (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 24, "1.0": 17, "3.0": 9, "4.0": 4, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "q6_9",
+        "txt": "When I assess the value of a home, I take into account its surrounding community and amenities (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 30, "2.0": 19, "3.0": 5, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q6_10",
+        "txt": "In life, having experiences is equally as important as owning things (Q6 - How strongly do you agree or disagree with the following statements around the financial aspects of purchasing a new home?)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 24, "2.0": 22, "3.0": 9, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "q7",
+        "txt": "Q7 - Shifting topics a bit, how familiar are you with the City of Brampton in the Greater Toronto Area?"
+      },
+      "options": {
+        "1.0": "Very familiar",
+        "2.0": "Somewhat familiar",
+        "3.0": "Not very familiar",
+        "4.0": "Not at all familiar"
+      },
+      "stats": { "count": { "2.0": 26, "1.0": 17, "3.0": 11, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "q8",
+        "txt": "Q8 - How would you describe your overall impression of Brampton?"
+      },
+      "options": {
+        "1.0": "Very positive",
+        "2.0": "Somewhat positive",
+        "3.0": "Neutral",
+        "4.0": "Somewhat negative",
+        "5.0": "Very negative",
+        "6.0": "Not sure/no opinion"
+      },
+      "stats": {
+        "count": { "2.0": 18, "3.0": 13, "4.0": 9, "5.0": 9, "1.0": 7 }
+      }
+    },
+    {
+      "question": {
+        "var": "q9",
+        "txt": "Q9 - How safe or unsafe do you consider Brampton to be?"
+      },
+      "options": {
+        "1.0": "Very safe",
+        "2.0": "Safe",
+        "3.0": "Unsafe",
+        "4.0": "Very unsafe",
+        "5.0": "Not sure/no opinion"
+      },
+      "stats": {
+        "count": { "2.0": 23, "3.0": 15, "4.0": 7, "5.0": 6, "1.0": 5 }
+      }
+    },
+    {
+      "question": {
+        "var": "q10",
+        "txt": "Q10 - How appealing do you find the cultural and recreational activities offered in Brampton?"
+      },
+      "options": {
+        "1.0": "Very appealing",
+        "2.0": "Somewhat appealing",
+        "3.0": "Not very appealing",
+        "4.0": "Not at all appealing",
+        "5.0": "Not sure/no opinion"
+      },
+      "stats": {
+        "count": { "2.0": 17, "5.0": 12, "4.0": 12, "1.0": 9, "3.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "q11",
+        "txt": "Q11 - How would you rate the quality of schools and educational opportunities available in Brampton compared to other areas in Greater Toronto?"
+      },
+      "options": {
+        "1.0": "Excellent",
+        "2.0": "Good",
+        "3.0": "Fair",
+        "4.0": "Poor",
+        "5.0": "Not sure/no opinion"
+      },
+      "stats": {
+        "count": { "2.0": 17, "5.0": 17, "3.0": 11, "4.0": 6, "1.0": 5 }
+      }
+    },
+    {
+      "question": {
+        "var": "q12_1",
+        "txt": "Toronto (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "1.0": 18, "2.0": 18, "3.0": 11, "4.0": 9 } }
+    },
+    {
+      "question": {
+        "var": "q12_2",
+        "txt": "Mississauga (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "2.0": 20, "3.0": 13, "4.0": 12, "1.0": 11 } }
+    },
+    {
+      "question": {
+        "var": "q12_3",
+        "txt": "Brampton (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "3.0": 17, "4.0": 17, "2.0": 13, "1.0": 9 } }
+    },
+    {
+      "question": {
+        "var": "q12_4",
+        "txt": "Milton (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "2.0": 23, "3.0": 16, "4.0": 13, "1.0": 4 } }
+    },
+    {
+      "question": {
+        "var": "q12_5",
+        "txt": "Golden Horseshoe (Hamilton, Burlington, Niagara etc.) (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "2.0": 29, "1.0": 10, "4.0": 9, "3.0": 8 } }
+    },
+    {
+      "question": {
+        "var": "q12_6",
+        "txt": "Vaughan (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "2.0": 22, "3.0": 19, "1.0": 8, "4.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "q12_7",
+        "txt": "Oakville (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "2.0": 26, "3.0": 16, "4.0": 8, "1.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "q12_8",
+        "txt": "Halton Hills (Q12 - If you were looking to purchase a new home over the next few years, how likely would you be to consider each of the following areas?)"
+      },
+      "options": {
+        "1.0": "Very likely",
+        "2.0": "Somewhat likely",
+        "3.0": "Not very likely",
+        "4.0": "Not at all likely"
+      },
+      "stats": { "count": { "3.0": 21, "2.0": 14, "4.0": 13, "1.0": 8 } }
+    },
+    {
+      "question": {
+        "var": "q13",
+        "txt": "Q13 - Here is a picture and brief description for a new development.        A new gateway to northwest Brampton  At the border of Halton Hills and Caledon, this master planned community will transform unused land at the northern corner of Brampton into a v"
+      },
+      "options": {
+        "1.0": "Very interested",
+        "2.0": "Somewhat interested",
+        "3.0": "Not very interested",
+        "4.0": "Not at all interested"
+      },
+      "stats": { "count": { "2.0": 24, "1.0": 15, "3.0": 10, "4.0": 7 } }
+    },
+    {
+      "question": {
+        "var": "a1_1",
+        "txt": "For most things in life, I like to play by the rules (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 28, "1.0": 15, "3.0": 8, "4.0": 4, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_2",
+        "txt": "I consider myself a rebel (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "3.0": 15, "4.0": 15, "2.0": 12, "5.0": 8, "1.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_3",
+        "txt": "I like to take risks (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 15, "3.0": 14, "4.0": 14, "5.0": 7, "1.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_4",
+        "txt": "Many people consider me \"the life of the party\" (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "3.0": 16, "2.0": 16, "4.0": 14, "5.0": 5, "1.0": 5 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_5",
+        "txt": "I love adventure (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 28, "1.0": 14, "3.0": 12, "4.0": 1, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_6",
+        "txt": "I have faith in our government to make good decisions (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 22, "3.0": 12, "4.0": 8, "5.0": 7, "1.0": 7 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_7",
+        "txt": "I am a very open-minded person (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 28, "1.0": 17, "3.0": 7, "4.0": 3, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_8",
+        "txt": "I tend to be more rigid in my beliefs and values (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "3.0": 20, "2.0": 17, "1.0": 11, "4.0": 6, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_9",
+        "txt": "I enjoy being outdoors (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 24, "2.0": 22, "4.0": 5, "3.0": 5 } }
+    },
+    {
+      "question": {
+        "var": "a1_10",
+        "txt": "I consider myself more of a home body (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 29, "1.0": 15, "3.0": 7, "4.0": 4, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_11",
+        "txt": "I like trying new things (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 26, "1.0": 15, "3.0": 11, "4.0": 2, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_12",
+        "txt": "People often look to me for advice or opinions on new technology (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 23, "3.0": 11, "1.0": 9, "4.0": 8, "5.0": 5 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_13",
+        "txt": "Change makes me feel uneasy (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 16, "3.0": 14, "1.0": 12, "4.0": 10, "5.0": 4 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_14",
+        "txt": "I'm a social butterfly \u2013 I love being out with people as often as possible (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 18, "3.0": 15, "4.0": 11, "5.0": 6, "1.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_15",
+        "txt": "I consider myself pretty traditional (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 29, "1.0": 11, "3.0": 8, "4.0": 7, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_16",
+        "txt": "I rely heavily on online reviews before making a purchase (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 23, "1.0": 11, "3.0": 8, "4.0": 8, "5.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_17",
+        "txt": "I would say I live by more modern values and customs (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 23, "3.0": 17, "1.0": 12, "4.0": 2, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_18",
+        "txt": "I am an early adopter and I like to try and do things before other people do (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 16, "4.0": 13, "3.0": 13, "1.0": 12, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_19",
+        "txt": "I usually ask other people for advice or recommendations on things (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 29, "1.0": 11, "3.0": 10, "4.0": 4, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a1_20",
+        "txt": "I think people should look out for each other, not just themselves (A1 - Next, we'd like to get to know the different personality types of everyone we're interviewing. Please indicate how strongly you agree or disagree with each of the following statements"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 26, "1.0": 25, "3.0": 3, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "a2_1",
+        "txt": "I believe in maximizing every opportunity (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 32, "3.0": 13, "1.0": 11 } }
+    },
+    {
+      "question": {
+        "var": "a2_2",
+        "txt": "Life is short \u2013 enjoy the ride (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 29, "2.0": 17, "3.0": 7, "4.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "a2_3",
+        "txt": "Making memories with family is my most important goal, whatever the season (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 29, "2.0": 19, "3.0": 7, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "a2_4",
+        "txt": "I feel like I never have enough time to do all the things I want to (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 21, "1.0": 18, "3.0": 11, "4.0": 5, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_5",
+        "txt": "My current financial situation is very challenging (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "3.0": 16, "2.0": 14, "1.0": 13, "4.0": 8, "5.0": 5 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_6",
+        "txt": "My finances are a large source of stress in my life (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 20, "3.0": 14, "1.0": 10, "4.0": 8, "5.0": 4 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_7",
+        "txt": "I think it is very important to contribute to the community (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 36, "1.0": 13, "3.0": 5, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "a2_8",
+        "txt": "I am interested in other cultures and countries (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 28, "1.0": 15, "3.0": 8, "4.0": 4, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_9",
+        "txt": "It is important for me to feel respected by my peers (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 22, "1.0": 16, "3.0": 15, "4.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "a2_10",
+        "txt": "Stores are only in business to make money (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 22, "3.0": 14, "1.0": 14, "4.0": 6 } }
+    },
+    {
+      "question": {
+        "var": "a2_11",
+        "txt": "Where people shop says a lot about the type of person they are (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 18, "3.0": 15, "1.0": 15, "4.0": 6, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_12",
+        "txt": "I buy products that reflect my personality or lifestyle (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "2.0": 25, "1.0": 16, "3.0": 10, "4.0": 3, "5.0": 2 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_13",
+        "txt": "I believe we all deserve nice things, no matter how much money we make (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 24, "2.0": 22, "3.0": 8, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "a2_14",
+        "txt": "I am selectively frugal - I look to save money on some things, so I can spend more on others (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 24, "1.0": 16, "3.0": 13, "4.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "a2_15",
+        "txt": "When it comes to money, I am very fiscally responsible (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "1.0": 24, "2.0": 19, "3.0": 10, "4.0": 2, "5.0": 1 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_16",
+        "txt": "I consider myself a pretty big spender (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": {
+        "count": { "4.0": 16, "3.0": 15, "2.0": 11, "1.0": 7, "5.0": 7 }
+      }
+    },
+    {
+      "question": {
+        "var": "a2_17",
+        "txt": "For most purchases I tend to look for good value for my money (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "1.0": 27, "2.0": 24, "3.0": 4, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "a2_18",
+        "txt": "I prefer to plan things in advance rather than be spontaneous (A2 - Again, please indicate how strongly you agree or disagree with each of the following statements.)"
+      },
+      "options": {
+        "1.0": "Agree strongly",
+        "2.0": "Agree somewhat",
+        "3.0": "Neither agree nor disagree",
+        "4.0": "Disagree somewhat",
+        "5.0": "Disagree strongly"
+      },
+      "stats": { "count": { "2.0": 30, "1.0": 16, "3.0": 7, "4.0": 3 } }
+    },
+    {
+      "question": {
+        "var": "d1_1",
+        "txt": "D1_1 (D1 - How many people live in your household, including yourself?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "d2x1_1", "txt": "Alone (D2x1)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "d2x1_2", "txt": "With friends/roommates (D2x1)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "d2x1_3", "txt": "With my partner/spouse (D2x1)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_4",
+        "txt": "With children under 2 years old (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_5",
+        "txt": "With children between 2-5 years old (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_6",
+        "txt": "With children between 5-12 years old (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_7",
+        "txt": "With children between 13-17 years old (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_8",
+        "txt": "With children above 17 years old (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d2x1_9",
+        "txt": "With other family members like parents, grandparents, etc. (D2x1)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "d2x3", "txt": "D2x3" },
+      "options": {
+        "10.0": "In an apartment/house I own",
+        "11.0": "In an apartment/house I pay rent for",
+        "12.0": "In an apartment/house where I live rent-free"
+      },
+      "stats": { "count": { "10.0": 39, "11.0": 15, "12.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "d2a",
+        "txt": "D2a - Which of the following best describes the type of home you currently live in?"
+      },
+      "options": {
+        "1.0": "Detached House: A standalone single-family dwelling that does not share any walls with neighbouring properties.",
+        "2.0": "Semi-detached House: A dwelling that shares one common wall with another house, typically split into two separate units.",
+        "3.0": "Townhouse: Also known as a row house or terraced house, a townhouse is a multi-level residence that shares walls with ad",
+        "4.0": "Condominium Apartment (Condo): A privately owned individual unit within a larger building or complex, where residents ty",
+        "5.0": "Duplex: A residential building divided into two separate units, each with its own entrance.",
+        "6.0": "Rental Apartment: A self-contained housing unit within a multi-unit building, typically leased by tenants and sharing co"
+      },
+      "stats": {
+        "count": { "1.0": 24, "3.0": 11, "6.0": 8, "2.0": 7, "4.0": 6 }
+      }
+    },
+    {
+      "question": {
+        "var": "d2b",
+        "txt": "D2b - Which of the following best describes the type of neighbourhood you currently live in?"
+      },
+      "options": {
+        "1.0": "Urban: Vibrant city center with diverse cultural amenities, dining options, and convenient access to public transportati",
+        "2.0": "Suburban: Quiet and family-friendly neighbourhoods with spacious homes, green spaces, and good schools, while still bein",
+        "3.0": "Rural: an area with lower population density, located outside major urban or suburban areas and close to open spaces, fa",
+        "4.0": "Small Town: Quaint and charming communities with a strong sense of local identity, small businesses, and community event",
+        "5.0": "Waterfront/Marina: Coastal or lakeside communities with scenic views, recreational opportunities, and a relaxed coastal"
+      },
+      "stats": { "count": { "1.0": 31, "2.0": 23, "4.0": 2 } }
+    },
+    {
+      "question": {
+        "var": "d3",
+        "txt": "D3 - Do you or someone in your household currently own or lease a car?"
+      },
+      "options": { "1.0": "Yes", "2.0": "No" },
+      "stats": { "count": { "1.0": 48, "2.0": 8 } }
+    },
+    {
+      "question": {
+        "var": "d4_1",
+        "txt": "Electric (D4 - Which type of car(s) do you currently lease or own?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d4_2",
+        "txt": "Hybrid (D4 - Which type of car(s) do you currently lease or own?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d4_3",
+        "txt": "Gas operated (D4 - Which type of car(s) do you currently lease or own?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d4_4",
+        "txt": "Don't know/not sure (D4 - Which type of car(s) do you currently lease or own?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d5",
+        "txt": "D5 - How often do you use a car in a typical week?"
+      },
+      "options": {
+        "1.0": "Everyday",
+        "2.0": "5-6 days per week",
+        "3.0": "3-4 days per week",
+        "4.0": "1-2 days per week",
+        "5.0": "Less often than once per week"
+      },
+      "stats": {
+        "count": { "1.0": 24, "3.0": 10, "2.0": 8, "4.0": 4, "5.0": 2 }
+      }
+    },
+    {
+      "question": { "var": "d6", "txt": "D6 - Were you born in Canada?" },
+      "options": { "1.0": "Yes", "2.0": "No", "3.0": "Prefer not to answer" },
+      "stats": { "count": { "1.0": 37, "2.0": 18, "3.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "d7",
+        "txt": "D7 - How long have you been a resident of Canada?"
+      },
+      "options": {
+        "1.0": "Less than one year",
+        "2.0": "1 year to just less than 2 years",
+        "3.0": "2 to 3 years",
+        "4.0": "4 to 5 years",
+        "5.0": "More than 5 years",
+        "6.0": "Prefer not to answer"
+      },
+      "stats": { "count": { "5.0": 17, "4.0": 1 } }
+    },
+    {
+      "question": {
+        "var": "d8_1",
+        "txt": "Self-employed / business owner (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_2",
+        "txt": "Employed full-time (30 hours per week or more) (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_3",
+        "txt": "Employed part-time (less than 30 hours per week) (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_4",
+        "txt": "Contract or seasonal worker for one or multiple employers (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_5",
+        "txt": "Student (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_6",
+        "txt": "Homemaker (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_7",
+        "txt": "Retired (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_8",
+        "txt": "Unemployed (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d8_9",
+        "txt": "Prefer not to say (D8 - Which of the following best describes your current employment status? )"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d9",
+        "txt": "D9 - And would you describe the type of work you do as:"
+      },
+      "options": {
+        "1.0": "Corporate, based in an office setting",
+        "2.0": "Professional (e.g. lawyer, doctor, dentist, accountant, etc.)",
+        "3.0": "Creative (in media, entertainment, advertising, fashion, etc.)",
+        "4.0": "Retail or service based (e.g. in a store or restaurant)",
+        "5.0": "Trades based (construction, plumbing, electrical)",
+        "6.0": "Other (please specify)"
+      },
+      "stats": {
+        "count": {
+          "1.0": 18,
+          "6.0": 12,
+          "2.0": 11,
+          "4.0": 7,
+          "5.0": 4,
+          "3.0": 4
+        }
+      }
+    },
+    {
+      "question": {
+        "var": "d9_6_other",
+        "txt": "Other (please specify) (D9 - And would you describe the type of work you do as:)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "d10",
+        "txt": "D10 - And what was the total income of your household before taxes in 2024?"
+      },
+      "options": {
+        "1.0": "Under $20,000",
+        "2.0": "$20,000 to $29,999",
+        "3.0": "$30,000 to $49,999",
+        "4.0": "$50,000 to $64,999",
+        "5.0": "$65,000 to $84,999",
+        "6.0": "$85,000 to $99,999",
+        "7.0": "$100,000 to $124,999",
+        "8.0": "$125,000 to $149,999",
+        "9.0": "$150,000 to $199,999",
+        "10.0": "$200,000 or more",
+        "11.0": "Don't know",
+        "12.0": "Prefer not to answer"
+      },
+      "stats": {
+        "count": {
+          "6.0": 11,
+          "7.0": 10,
+          "5.0": 8,
+          "4.0": 7,
+          "9.0": 7,
+          "10.0": 4,
+          "3.0": 3,
+          "2.0": 3,
+          "8.0": 2,
+          "12.0": 1
+        }
+      }
+    },
+    {
+      "question": {
+        "var": "d11",
+        "txt": "D11 - Which of the following best describes the ethnic group you identify with the most?"
+      },
+      "options": {
+        "1.0": "White or Caucasian",
+        "2.0": "East Asian",
+        "3.0": "South Asian",
+        "4.0": "South East Asian",
+        "5.0": "Middle Eastern",
+        "6.0": "Black",
+        "7.0": "Hispanic/Latin",
+        "8.0": "First Nations/Indigenous",
+        "9.0": "I identify with multiple ethnicities",
+        "10.0": "Other",
+        "11.0": "I prefer not to answer"
+      },
+      "stats": {
+        "count": {
+          "1.0": 33,
+          "6.0": 5,
+          "2.0": 5,
+          "3.0": 5,
+          "4.0": 4,
+          "10.0": 1,
+          "11.0": 1,
+          "5.0": 1,
+          "7.0": 1
+        }
+      }
+    },
+    {
+      "question": {
+        "var": "d12",
+        "txt": "D12 - Which of the following best describes your religious background or beliefs?"
+      },
+      "options": {
+        "1.0": "Christianity",
+        "2.0": "Islam",
+        "3.0": "Buddhism",
+        "4.0": "Sikhism",
+        "5.0": "Hinduism",
+        "6.0": "Judaism",
+        "7.0": "Atheist",
+        "8.0": "Bah\u00e1?\u00ed Faith",
+        "9.0": "Jainism",
+        "10.0": "Shinto",
+        "11.0": "Taoism",
+        "12.0": "Confucianism",
+        "13.0": "Other (please specify)",
+        "14.0": "Prefer not to answer"
+      },
+      "stats": {
+        "count": {
+          "1.0": 31,
+          "14.0": 9,
+          "7.0": 4,
+          "2.0": 3,
+          "5.0": 2,
+          "6.0": 2,
+          "13.0": 2,
+          "3.0": 2,
+          "4.0": 1
+        }
+      }
+    },
+    {
+      "question": {
+        "var": "d12_13_other",
+        "txt": "Other (please specify) (D12 - Which of the following best describes your religious background or beliefs?)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "progqc_1", "txt": "QC1 (progQC - Hidden: progQC)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "progqc_2", "txt": "QC2 (progQC - Hidden: progQC)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "progqc_3", "txt": "QC3 (progQC - Hidden: progQC)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "progqc_4", "txt": "QC4 (progQC - Hidden: progQC)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": { "var": "progqc_5", "txt": "QC5 (progQC - Hidden: progQC)" },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "hqcwarning",
+        "txt": "hQCWarning - Hidden: hQCWarning"
+      },
+      "options": {
+        "0.0": "No Warning",
+        "1.0": "You have answered one of the data quality control checks in this survey incorrectly, which suggests that you may not be",
+        "2.0": "You have now incorrectly answered a second data quality control check.If you fail another quality control check, then we",
+        "3.0": "Despite our warnings, you have continued to take inadequate care in answering the survey and have failed another data qu",
+        "4.0": "Despite our warnings, you have continued to take inadequate care in answering the survey and have failed another data qu",
+        "5.0": "Despite our warnings, you have continued to take inadequate care in answering the survey and have failed another data qu",
+        "6.0": "Despite our warnings, you have continued to take inadequate care in answering the survey and have failed another data qu",
+        "7.0": "Despite our warnings, you have continued to take inadequate care in answering the survey and have failed another data qu"
+      },
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timestart_1",
+        "txt": "Screener (Sec_TimeStart - Sec_TimeStart)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timestart_2",
+        "txt": "Section 2: Home buying preferences & influences (Sec_TimeStart - Sec_TimeStart)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timestart_3",
+        "txt": "Section 3: Sentiments Towards Brampton and Heritage Heights (Sec_TimeStart - Sec_TimeStart)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timestart_4",
+        "txt": "Section 4: General attitudes and Personality Traits (Sec_TimeStart - Sec_TimeStart)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timestart_5",
+        "txt": "Section 5: Demographics  (Sec_TimeStart - Sec_TimeStart)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timeend_1",
+        "txt": "Screener (Sec_TimeEnd - Sec_TimeEnd)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timeend_2",
+        "txt": "Section 2: Home buying preferences & influences (Sec_TimeEnd - Sec_TimeEnd)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timeend_3",
+        "txt": "Section 3: Sentiments Towards Brampton and Heritage Heights (Sec_TimeEnd - Sec_TimeEnd)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timeend_4",
+        "txt": "Section 4: General attitudes and Personality Traits (Sec_TimeEnd - Sec_TimeEnd)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_timeend_5",
+        "txt": "Section 5: Demographics  (Sec_TimeEnd - Sec_TimeEnd)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_totaltime_1",
+        "txt": "Screener (Sec_TotalTime - Sec_TotalTime)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_totaltime_2",
+        "txt": "Section 2: Home buying preferences & influences (Sec_TotalTime - Sec_TotalTime)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_totaltime_3",
+        "txt": "Section 3: Sentiments Towards Brampton and Heritage Heights (Sec_TotalTime - Sec_TotalTime)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_totaltime_4",
+        "txt": "Section 4: General attitudes and Personality Traits (Sec_TotalTime - Sec_TotalTime)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    },
+    {
+      "question": {
+        "var": "sec_totaltime_5",
+        "txt": "Section 5: Demographics  (Sec_TotalTime - Sec_TotalTime)"
+      },
+      "options": {},
+      "stats": { "count": {} }
+    }
+  ]
+}
